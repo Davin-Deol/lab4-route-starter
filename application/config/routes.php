@@ -58,3 +58,6 @@ $route['charlie/brown'] = 'charlie/brown';
 $route['foxtrot'] = 'tango';
 $route['show/(:any)'] = 'welcome/show/$1';
 $route['i/.*'] = 'golf';
+$route['bananas/rule'] = function() {
+    return 'golf';
+};
