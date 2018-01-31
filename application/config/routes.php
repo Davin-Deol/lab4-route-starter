@@ -54,4 +54,5 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['able'] = 'able';
+$route['charlie/brown'] = 'charlie/brown';
 $route['foxtrot'] = 'tango';
