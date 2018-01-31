@@ -12,7 +12,7 @@ class Charlie extends Application
 	/**
 	 * Homepage for our app
 	 */
-	public function index()
+	public function brown()
 	{
 		$this->show(3);
 	}
